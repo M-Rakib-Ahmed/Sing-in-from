@@ -15,18 +15,19 @@
         <div class="form-control">
             <label class="text-center text-2xl font-bold">Sign in</label>
           <label class="label">
-            <span class="label-text">UserName:</span>
+            <span class="label-text">Email Address:</span>
           </label>
-          <input type="text" placeholder="Enter your name" class="input input-bordered" required />
+          <input id="email" type="email" placeholder="Enter your email" class="input input-bordered" required />
         </div>
-        <div class="form-control">
+        <div class="form-control relative">
           <label class="label">
             <span class="label-text">Password</span>
           </label>
-          <input type="password" placeholder="password" class="input input-bordered" required />
+          <input id="passworld" type="password" placeholder="password" class="input input-bordered" required />
+          <button id="togglePassworld" class="btn absolute right-0 bottom-0">Show</button>
         </div>
         <div class="form-control mt-6">
-          <button class="btn btn-primary">Login</button>
+          <button class="btn btn-primary uppercase">Login</button>
         </div>
       </form>
     </div> 
